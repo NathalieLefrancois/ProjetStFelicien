@@ -21,7 +21,7 @@
     </style>
   </head>
   <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
-    <!--Nav-->
+      <!--Nav-->
     <nav id="header" class="fixed w-full z-30 top-0 text-white">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
@@ -77,7 +77,11 @@
         </div>
         <!--Right Col-->
         <div class="w-full md:w-3/5 py-6 text-center z-40">
-          <img class="w-full md:w-3/5 z-50" src="images/hero.jpg " srcset="images/hero2.jpg" alt ="image hero"/>
+        <video controls preload ="none" poster="images/hero.jpg " >
+              <source src="video/vacation.mp4" type="video/mp4">
+              Votre systeme ne supporte pas ce type de video.
+        </video>
+          <!-- <img class="w-full md:w-3/5 z-50" src="images/hero.jpg " srcset="images/hero2.jpg" alt ="image hero"/> -->
           
         </div>
       </div>
@@ -619,7 +623,7 @@
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Links1</a>
-              </li>
+              </li> 
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
                 <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Links2</a>
               </li>
@@ -657,7 +661,10 @@
             <p class="uppercase text-gray-500 md:mb-6">Company</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                <a href="contact.php"  class="no-underline hover:underline text-gray-800 hover:text-pink-500">Formulaire Contact</a>
+              </li>
+              <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+              <a href= "mailto:nathlef@live.ca?cc=aaa@example.com&bcc=bbb@example.com&subject=Demande d'information&body=Vous avez des questions, nous avons peut-être les réponses!  Laissez votre message ici!" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Liens E-Mail</a>
               </li>
             </ul>
           </div>
